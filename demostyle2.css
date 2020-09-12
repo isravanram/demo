@@ -1,0 +1,62 @@
+.mainIcon
+{
+    background-image: url(logo-1561819118194.png);
+    background-color: transparent;
+    width: auto;
+    height: 190px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+ 
+body
+{
+    background-image: url(3_RP---Huracan-Evo-88.jpg);
+/*    background-size:;*/
+/*    position:sticky;*/
+}
+
+.container{
+/*
+    border:1px #ccc solid;
+    padding:10px;
+*/
+    background-image: url("bmw6series.jpg");
+    background-size:auto;
+    
+ position: absolute;
+  top: 22%;
+  width: 100%;
+  text-align: center;
+    
+  font-size: 18px;
+    
+/*    background: grey;*/
+    font-family:monospace;
+    font-size: 20px;
+    align-items: flex-end;
+/*    width:80%;*/
+    
+    
+}
+
+p{
+    
+    font-family: fantasy;
+    font-size: 20px;
+    color: chocolate;
+    background:black;
+}
+.box{
+    text-align: center;
+    border:1px #ccc solid;
+    padding:20px;
+    flex-direction: row;
+    background: #E5E8E8 ;
+    flex:2;
+    align-items: center;
+    justify-content: space-around;
+    width:27%;
+}
+
+
