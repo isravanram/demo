@@ -13,9 +13,10 @@
         $query="SELECT * FROM `model` WHERE Name LIKE '%".$_POST['searchbar']."%'";
         $search_query=mysqli_query($con,$query);
         
+        $
         if(mysqli_num_rows($search_query) !=0 )
         {
-            $result=mysqli_fetch_assoc($search_query);
+            $result=mysqli_fetch_assoc($search_query); 
         }
  //$search_query=0;
 ?>
@@ -31,24 +32,25 @@
     
     <body>
         
-<!--
         <header>
             <img src="logo-1561819118194.png" class="mainIcon">
         </header>
--->
-        <div class="result-display">
-        <p> MODELS FOUND </p>
-        <div class="background-white">
+        
+        
+        <div class="models">
+        <div class="container">
+            <p> MODELS FOUND </p>
+        
             
             <?php 
                 if(mysqli_num_rows($search_query)!=0 )
                 {
                     
                     do 
-                    {?> 
+                    {  $image=$result[?> 
+                        
             
-            
-            <div class="result_holder"><p><?php echo $result['Description']; ?></p> </div>
+            <div class="box"><img src="bmw7series.jpg" height="100px" width="200px"><div class="text"><?php echo $result['Description']; ?></div> </div>
                     
                     <?php }while($result=mysqli_fetch_assoc($search_query));
                     
