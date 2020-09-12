@@ -13,7 +13,7 @@
         $query="SELECT * FROM `model` WHERE Name LIKE '%".$_POST['searchbar']."%'";
         $search_query=mysqli_query($con,$query);
         
-        $
+        
         if(mysqli_num_rows($search_query) !=0 )
         {
             $result=mysqli_fetch_assoc($search_query); 
